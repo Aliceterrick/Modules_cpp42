@@ -1,0 +1,5 @@
+./replace test aaa replace
+./replace test a ba (no infinite while when s1 is in s2)
+./replace test bbb file
+./replace "***" s1
+./replace "#%&" s2
