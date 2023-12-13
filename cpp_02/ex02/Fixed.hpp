@@ -23,10 +23,10 @@ public:
 	bool	operator<=(const Fixed &toCompare) const;
 	bool	operator==(const Fixed &toCompare) const;
 	bool	operator!=(const Fixed &toCompare) const;
-	float	operator+(const Fixed &toAdd) const;
-	float	operator-(const Fixed &toSubtract) const;
-	float	operator*(const Fixed &factor) const;
-	float	operator/(const Fixed &divisor) const;
+	Fixed	operator+(const Fixed &toAdd) const;
+	Fixed	operator-(const Fixed &toSubtract) const;
+	Fixed	operator*(const Fixed &factor) const;
+	Fixed	operator/(const Fixed &divisor) const;
 	Fixed	&operator++();
 	Fixed	&operator--();
 	Fixed	operator++(int);
